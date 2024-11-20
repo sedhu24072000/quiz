@@ -1,10 +1,6 @@
-const dotenv = require('dotenv')
 const mongoose = require('mongoose')
 
-dotenv.config({path:'./config.env'})
-
 const app = require('./app')
-
 
 const DB = 'mongodb+srv://sedhu:sedhumadhavan@cluster0.rokjl.mongodb.net/quiz?retryWrites=true&w=majority&appName=Cluster0'
 
